@@ -1,0 +1,20 @@
+from transliterate import translit
+from num2words import num2words
+# print("Ladies and gentlemen, I'm 78 years old and I finally got 15 minutes of fame once in a lifetime and I guess that this is mine. People have also told me to make these next few minutes escruciatingly embarrassing and to take vengeance of my enemies. Neither will happen.\n\nMore than 3 years ago I moved to Novo-Novsk, but worked on new Magnetic Storage for last 40. When I was 8...")
+from transliterate import translit
+print(translit("Ladies and gentlemen, I'm 78 years old and I finally got 15 minutes of fame once in a lifetime and I guess that this is mine. People have also told me to make these next few minutes escruciatingly embarrassing and to take vengeance of my enemies. Neither will happen.\n\nMore than 3 years ago I moved to Novo-Novsk, but worked on new Magnetic Storage for last 40. When I was 8...", 'ru'))
+my_list = (78)
+next_num = num2words(my_list)
+print("78 -", translit(next_num, 'ru'))
+my_list1 = (15)
+next_num1 = num2words(my_list1)
+print("15 -", translit(next_num1, 'ru'))
+my_list3 = (3)
+next_num3 = num2words(my_list3)
+print("3 -", translit(next_num3, 'ru'))
+my_list4 = (40)
+next_num4 = num2words(my_list4)
+print("40 -", translit(next_num4, 'ru'))
+my_list5 = (8)
+next_num5 = num2words(my_list5)
+print("8 -", translit(next_num5, 'ru'))
